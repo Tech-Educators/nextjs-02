@@ -1,4 +1,4 @@
-# Lab
+# About NextJS
 
 The best overview of Next.js can of course be found in the [official documentation]().
 
