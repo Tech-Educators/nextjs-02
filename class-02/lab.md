@@ -6,7 +6,7 @@ note: We assume you have a recent version of Node.js installed (at time of writi
 
 Similar to the `create-react-app` command, Next.js maintains `create-next-app` which bootstraps a new Next.js application with sensible defaults. You can run the command to create a new Next.js 13 application like this:
 
-`npx create-next-app@latest --experimental-app`
+`npx create-next-app@latest`
 
 You will be prompted to:
 
