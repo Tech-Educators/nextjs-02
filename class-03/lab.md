@@ -26,7 +26,7 @@ export default function AboutRoute() {
 
 Create this file and then attempt to visit `http://localhost:3000/about` in your browser. Create another page, by making another folder and another `page.tsx` file.
 
-Add links to these pages in the root layout at `/app/layout.tsx` file. Click around the pages to get a feel for how it feels to switch between pages.
+Add links to these pages in the root layout at `/app/layout.tsx` file or in a Header component. Click around the pages to get a feel for how it feels to switch between pages.
 
 Next up:
 - Make sure your header and footer are in components
