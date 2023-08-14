@@ -9,7 +9,7 @@ It's still interesting to understand how simple a basic Next.js project can be. 
 - 1. Create a new direcotry called `next-barebones` and run `cd next-barebones`
 - 2. Initialise an npm project to install dependencies: `npm init -y`
 - 3. Install Next, React and React DOM (because we're in the browser) `npm install next react react-dom`
-- 4. Add the launch script `"dev": "next dev"` to `scripts` section in `package.json`. Now you can run `npm run dev`.
+- 4. Add the launch script `"dev": "next dev"` to `scripts` section in `package.json`. Now you can run `npm run dev` in a moment.
 - 5. Make the `/app` directory: `mkdir app`
 - 6. Create the file for the homepage: `touch app/page.tsx` and add the following:
 
