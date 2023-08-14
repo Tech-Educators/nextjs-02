@@ -34,7 +34,7 @@ You can edit this content in real-time and see the changes reflected instantly i
 
 To do:
 
-- Edit the `layout.tsx` so there is a header and afooter on the page
+- Edit the `layout.tsx` so there is a header and a footer on the page
 - Edit the `page.tsx` so the content is telling us about yourself
 - STRETCH: play around with the Tailwind classes to see if you can make it look good (no css in a csss file please) [Tailwind Docs](https://tailwindcss.com/)
 
