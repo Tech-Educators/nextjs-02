@@ -32,4 +32,10 @@ The top level `app/page.tsx` file contains the HTML content for the Next.js 13 d
 
 You can edit this content in real-time and see the changes reflected instantly in your browser.
 
+To do:
+
+- Edit the `layout.tsx` so there is a header and afooter on the page
+- Edit the `page.tsx` so the content is telling us about yourself
+- STRETCH: play around with the Tailwind classes to see if you can make it look good (no css in a csss file please) [Tailwind Docs](https://tailwindcss.com/)
+
 ⚠️ warning: there have been some bugs with auto-refreshing in Firefox, so if you run into any issues where it won't reload, try a different browser.
