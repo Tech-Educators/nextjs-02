@@ -20,8 +20,6 @@ You will be prompted to:
 
 This will install the dependencies and set up the project ready for development.
 
-note: the `--experimental-app` flag is required to enable the Next.js 13 beta features, but once the full release occurs this will no longer be required.
-
 Change into the project directory with the `cd my-project` command.
 
 Open your new project folder in your code editor. (You might be able to type `code .` in your terminal if you use VSCode.)
