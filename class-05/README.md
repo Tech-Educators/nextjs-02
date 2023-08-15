@@ -15,7 +15,7 @@ How to manage page titles, meta data (inc. Open Graph) and descriptions.
 - Managing page metadata
 - Exporting static metadata values
 - Exporting dynamic metadata values using URL params.
-- TODO: Open Graph metadata to improve presence in SEO and Social cards
+- Open Graph metadata to improve presence in SEO and Social cards
 
 ## Helpful Resources
 
