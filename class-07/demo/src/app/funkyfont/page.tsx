@@ -1,10 +1,9 @@
 import { Foldit, Poppins } from "next/font/google";
 
 const foldit = Foldit({ subsets: ["latin"] });
-const poppins = Poppins({ subsets: ["latin"], weight: "400" });
+const poppins = Poppins({ subsets: ["latin"], weight: ["400", "700", "900"] });
 
 export default function FunkyFontPage() {
-  console.log(poppins);
   return (
     <div className={foldit.className}>
       <h2>Funky Fonts</h2>
