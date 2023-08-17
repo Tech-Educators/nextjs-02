@@ -131,3 +131,10 @@ The `/pages` directory used `getServerSideProps` to do full dynamic rendering. T
 You can call APIs and databases directly from your server components. This is a big new feature of React itself, and Next.js 13 is the first widely available framework to release an implementation.
 
 Read more about it on the React and Next.js docs linked in the Helpful Resources section of the README.
+
+## ⛳️ Exercise: Add Catgories Pages
+
+- Create a new Dynamic Route Segment called [categories] that shows posts in specific categories
+- Edit your `/lib/posts.ts` to allow you to get posts by their category
+
+The final url for a categories page should look something like: `www.example.com/blog/news` if news was one of your categories
