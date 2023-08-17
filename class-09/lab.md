@@ -138,4 +138,4 @@ Read more about it on the React and Next.js docs linked in the Helpful Resources
 - Then create a Dynamic Route Segment inside `/blog/categories` called something like `[catslug]`
 - Edit your `/lib/posts.ts` to allow you to get posts by their category
 
-The final url for a categories page should look something like: `www.example.com/blog/news` if news was one of your categories
+The final url for a categories page should look something like: `www.example.com/blog/categories/news` if news was one of your categories
