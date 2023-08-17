@@ -1,4 +1,4 @@
-# 9. Static/Incremental rendering Adding a blog or news page with static rendering (/pages & /app)
+# 9. Static/Incremental rendering: Adding a blog or news page with static rendering (also we talk about /pages & /app)
 
 ## Overview
 
