@@ -1,4 +1,4 @@
-import { getPostsByCategory } from "@/lib/posts";
+import { getPostsByCategory, getCategories } from "@/lib/posts";
 import Link from "next/link";
 import React from "react";
 
@@ -7,6 +7,14 @@ type CategoryParams = {
     catslug: string;
   };
 };
+
+export function generateStaticParams({ params }: CategoryParams) {
+  const categories = getCategories();
+
+  return categories.map((category) => {
+    return { category: params.catslug };
+  });
+}
 
 export default function CategoryPage({ params }: CategoryParams) {
   const posts = getPostsByCategory(params.catslug);
