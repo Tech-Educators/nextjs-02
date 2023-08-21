@@ -9,6 +9,10 @@ export default async function Home() {
       <h1>Welcome to my API</h1>
       <p>My message to you is:</p>
       <h2>{data}</h2>
+      <form action="/api/message" method="POST">
+        <input name="messagefield" />
+        <button type="submit">Submit</button>
+      </form>
     </main>
   );
 }
