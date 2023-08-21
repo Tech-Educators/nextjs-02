@@ -29,7 +29,8 @@ export default function BlogPost({ params }: BlogPostParams) {
     <div>
       <h1>{post.title}</h1>
       <div dangerouslySetInnerHTML={{ __html: post.body.html }} className="prose dark:prose-invert"></div>
-      <Comments />
+      {/* @ts-ignore */}
+      <Comments slug={params.slug} />
     </div>
   );
 }
