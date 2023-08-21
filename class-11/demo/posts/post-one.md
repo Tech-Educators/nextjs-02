@@ -16,3 +16,5 @@ if (tim === "cool") {
 ```
 
 ## Bigger text
+
+![next](/next.svg)
