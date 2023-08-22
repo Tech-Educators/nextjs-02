@@ -36,7 +36,7 @@ export default function CommentForm({ slug }: { slug: string }) {
     // @ts-ignore
     event.target.comment.value = "";
 
-    // refresh the current route and fetch new datat from the serevr without lising the client-side browser or React State
+    // refresh the current route and fetch new datat from the serevr without losing the client-side browser or React State
     startTransition(() => {
       router.refresh();
       console.log("relocation the page data");
@@ -44,17 +44,11 @@ export default function CommentForm({ slug }: { slug: string }) {
   }
 
   return (
-    <form onSubmit={handleFormSubmit}>
+    <form onSubmit={handleFormSubmit} className="flex flex-col gap-4">
       <label htmlFor="username">Name</label>
-      <br />
       <input name="username" className="text-black border-2 border-grey-400" />
-      <br />
-      <br />
       <label htmlFor="comment">Comment</label>
-      <br />
       <textarea name="comment" cols={30} rows={10} className="text-black border-2 border-grey-400" required />
-      <br />
-      <br />
       <button type="submit" disabled={isPending}>
         {isPending ? "Sending..." : "Send Comment"}
       </button>
