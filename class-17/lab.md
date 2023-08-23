@@ -18,7 +18,7 @@ Follow these steps to demo setting up a clerk.dev project:
 
 ```ts
   {
-    publicRoutes: ["/", "/blog", "/blog/(.*)]"
+    publicRoutes: ["/", "/blog", "/blog/(.*)", "/api/comments/(.*)"],
   }
 ```
 
