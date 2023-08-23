@@ -10,10 +10,7 @@ async function delay(delay: number) {
   });
 }
 
-export function getComments() {
-  console.log("pre test");
-  return delay(5000).then(() => {
-    return comments;
-  });
-  console.log("test");
+export async function getComments() {
+  await delay(5000);
+  return comments;
 }
