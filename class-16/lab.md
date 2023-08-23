@@ -28,4 +28,4 @@ Suspense doens't only accept a text string as a fallback. It also accepts a Reac
 
 A common approach to this is known as "shimmer" effects - where an approximation of the content to load, say a profile image and a block of text is shown as a "placeholder" - a blank set of boxes that represent the rough design of the content when it loads. This often "shimmers" or fades in and out to indicate a loading state.
 
-You can see a simple example of this in the example folder, in the `components/CommentShimmer.tsx` file. This is a common way to indicate some content is about to load, and Suspense along with Async components makes doing this quite straightforward!
+You can see a simple example of this in the example folder, in the `components/Shimmer.tsx` file. This is a common way to indicate some content is about to load, and Suspense along with Async components makes doing this quite straightforward!
