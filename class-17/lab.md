@@ -2,7 +2,7 @@
 
 Follow these steps to demo setting up a clerk.dev project:
 
-- Got to https://clerk.com/docs/nextjs/get-started-with-nextjs
+- Got to [https://clerk.com/docs/nextjs/get-started-with-nextjs](https://clerk.com/docs/quickstarts/nextjs)
 - Follow the instructions
 - Install
 - Copy .env.local variables
