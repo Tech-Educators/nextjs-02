@@ -18,8 +18,14 @@ export default async function Comments({ slug }: { slug: string }) {
   return (
     <div>
       <h3>Comments</h3>
-      {/* @ts-ignore */}
-      {user ? <CommentForm slug={slug} username={user.username} /> : <Link href="/sign-in">Please sign in to comment</Link>}
+      {user ? (
+        <>
+          {/* @ts-ignore */}
+          <CommentForm slug={slug} username={user.username} />
+        </>
+      ) : (
+        <Link href={`/sign-in?redirect=/blog/${slug}`}>Please sign in to comment</Link>
+      )}
 
       <ul>
         {/* @ts-ignore */}
